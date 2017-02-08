@@ -2,8 +2,8 @@
 
 Gem::Specification.new do |s|
   s.name        = 'smashing'
-  s.version     = '1.0.0'
-  s.date        = '2016-10-23'
+  s.version     = '1.0.1'
+  s.date        = '2017-02-08'
   s.executables = %w(smashing)
 
 
@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency('sinatra', '~> 1.4.4')
   s.add_dependency('sinatra-contrib', '~> 1.4.2')
   s.add_dependency('thin', '~> 1.6.1')
-  s.add_dependency('rufus-scheduler', '~> 2.0.24')
+  s.add_dependency('rufus-scheduler', '~> 3.2.0')
   s.add_dependency('thor', '~> 0.19')
   s.add_dependency('sprockets', '~> 2.10.1')
   s.add_dependency('rack', '~> 1.5.4')
